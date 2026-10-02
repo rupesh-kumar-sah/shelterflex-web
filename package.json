@@ -5,11 +5,11 @@
   "packageManager": "npm@10.9.2",
   "scripts": {
     "preinstall": "node scripts/ensure-npm.mjs",
-    "build": "next build",
-    "dev": "next dev",
+    "build": "node init && next build",
+    "dev": "node init && next dev",
     "lint": "eslint .",
     "analyze": "ANALYZE=true next build",
-    "start": "next start",
+    "start": "node init && next start",
     "test": "vitest run --coverage",
     "test:unit": "vitest run --coverage",
     "test:e2e": "playwright test"
