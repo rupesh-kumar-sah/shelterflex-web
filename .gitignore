@@ -17,7 +17,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
-.env*
 
 # vercel
 .vercel
@@ -30,3 +29,4 @@ yarn-error.log*
 pnpm-lock.yaml
 pnpm-workspace.yaml
 yarn.lock
+config.bat
